@@ -20,9 +20,13 @@ public class DamageDealt (String[] args); {
 
         System.out.println("How many attacks would you like to make");
         int numberAttack = myScanner.nextInt();
-        System.out.println(numberAttack);
+        System.out.println(numberAttack + "ammount of attacks");
 
+        System.out.println("How many attacks would you like to make");
+        int damageDealt = myScanner.nextInt();
+        System.out.println(damageDealt + "damage per attack");
 
+        
 
        
     
