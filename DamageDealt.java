@@ -18,7 +18,10 @@ public class DamageDealt (String[] args); {
         String monsterName;
         System.out.println(monsterName + "is a frightening monster!");
 
-        System.out.println("How many attacks would you like to ")
+        System.out.println("How many attacks would you like to make");
+        int numberAttack = myScanner.nextInt();
+        System.out.println(numberAttack);
+
 
 
        
