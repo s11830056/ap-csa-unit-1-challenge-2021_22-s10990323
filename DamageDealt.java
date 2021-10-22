@@ -2,8 +2,8 @@
 // Peer Dubugging by johann burke
 import java.util.Scanner;
 
-public class DamageDealt (String[] args); {
-    public static void main(string[] args) {
+public class DamageDealt {
+    public static void main(String[] args) {
         Scanner myScanner = new Scanner(System.in);
         System.out.println("Please enter UserName:");
         String userName = myScanner.nextLine();
@@ -28,7 +28,7 @@ public class DamageDealt (String[] args); {
         System.out.println(damageDealt + "damage per attack");
 
         int totalDamage; 
-        var toalDamage = numberAttack * damageDealt; 
+        var totalDamage = numberAttack * damageDealt; 
         System.out.println("Your total damge was" + totalDamage);
 
        
