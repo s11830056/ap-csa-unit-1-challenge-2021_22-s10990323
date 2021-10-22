@@ -26,7 +26,9 @@ public class DamageDealt (String[] args); {
         int damageDealt = myScanner.nextInt();
         System.out.println(damageDealt + "damage per attack");
 
-        
+        int totalDamage; 
+        var toalDamage = numberAttack * damageDealt; 
+        System.out.println("Your total damge was" + totalDamage);
 
        
     
